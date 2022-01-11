@@ -5,7 +5,7 @@ getgenv().Settings = {
     AttachHead = false, -- Recommended: False
     Velocity = Vector3.new(35,0,0),
     AllowNetBypass = true, -- Recommended: True
-    DisableAnimationsR6 = true, -- Recommended: IDK
+    DisableAnimationsR6 = false, -- Recommended: IDK
     SimpleBulletFling = false -- Recommended: IDK
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatek/Gelatek-Hub/main/Main/Reanimation.lua"))()
