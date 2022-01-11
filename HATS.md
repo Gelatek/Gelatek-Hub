@@ -1,3 +1,4 @@
+# PS: Pal Hair/Bullet Is only required on R6, Different fling method is used on r15.
 # Hats for Hat Scripts/Animations:
   - Cadacus:
     - https://www.roblox.com/catalog/63690008/Pal-Hair (Bullet, FREE)
