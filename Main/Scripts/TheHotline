@@ -8,7 +8,8 @@ getgenv().Settings = {
     DisableAnimationsR6 = true, -- Recommended: IDK
     SimpleBulletFling = false -- Recommended: IDK
 }
-loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatek/Gelatek-Hub/main/Main/Reanimation.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatek/Gelatek-Hub/main/Main/Reanimation.lua"))()
+
 local script = game:GetObjects('rbxassetid://8508128377')[1]
 local function Align(P0,P1,Position,Rotate)
     local AlignPosition = Instance.new("AlignPosition", P0)
