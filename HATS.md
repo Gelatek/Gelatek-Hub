@@ -1,4 +1,6 @@
 # Hats for Hat Scripts/Animations:
+  - Cadacus:
+    - https://www.roblox.com/catalog/63690008/Pal-Hair (Bullet, FREE)
   - Chips: 
     - https://www.roblox.com/catalog/4964938812/Pillow (75 Robux)
   - The Hotline: 
