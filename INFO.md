@@ -1,0 +1,14 @@
+No you can't use anything from the hub besides reanimate with informations below.
+
+This reanimation is created by gelatek, this is my property.
+People who gonna use it, Are allowed to:
+❌ Use this to your hub
+❌ Sell the reanimate.
+❌ Claim this script to be yours.
+❌ Take any parts listed below:
+  - Align, Attaching, Net, Netless, Noclip.
+✅ Personal Use
+✅ Script Converting
+✅ Showcasing
+
+If you want to use this reanimate in your hub, you have to direct message me (centervalue#0814) on discord, then i might give you rights to use the reanimate.
