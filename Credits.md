@@ -12,3 +12,6 @@
 
 # Original Creator of: Soul Reaper
   - sadeecake
+
+# Original Creator of: Bootleg Cannon/Zaphickel's Cannon
+  - Gelatek (i also go by Zaphickel as well!)
