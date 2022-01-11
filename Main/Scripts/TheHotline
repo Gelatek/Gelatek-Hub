@@ -6,7 +6,7 @@ getgenv().Settings = {
     Velocity = Vector3.new(35,0,0),
     AllowNetBypass = true, -- Recommended: True
     DisableAnimationsR6 = false, -- Recommended: IDK
-    SimpleBulletFling = false -- Recommended: IDK
+    SimpleBulletFling = true -- Recommended: IDK
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatek/Gelatek-Hub/main/Main/Reanimation.lua"))()
 
@@ -524,30 +524,7 @@ end
 --dmg
 
 function kill(MODEL)
-	MODEL:BreakJoints()
-	local bparts = {}
-	for index, CHILD in pairs(MODEL:GetChildren()) do
-		if CHILD.Name == "Torso" or CHILD.Name == "Right Arm" or CHILD.Name == "Left Arm" or CHILD.Name == "Right Leg" or CHILD.Name == "Left Leg" or CHILD.Name == "Head" then
-			table.insert(bparts,CHILD)
-		end
-		for i = 1,#bparts do
-			local bp = IT("StringValue",bparts[i])
-			bp.Name = "isbodypart"
-		end
-		coroutine.resume(coroutine.create(function()
-		swait(MRANDOM(8,12)/10)
-		local va = MRANDOM(30,80)
-		if CHILD:IsA("BasePart") and CHILD.Name ~= "HumanoidRootPart" then
-		if CHILD:FindFirstChild("isbodypart") then
-		getbloody(CHILD,20)
-		else
-		--WACKYEFFECT2({Time = 120, EffectType = "Box", Size = CHILD.Size, Size2 = CHILD.Size, Transparency = CHILD.Transparency, Transparency2 = 1, CFrame = CHILD.CFrame, MoveToPos = CHILD.Position+VT(0,MRANDOM(0,100)/10,0), RotationX = MRANDOM(-4,4), RotationY = MRANDOM(-4,4), RotationZ = MRANDOM(-4,4) ,Material = "Neon", Color = Color3.fromRGB(255, MRANDOM(85,120), 0), SoundID = nil, SoundPitch = nil, SoundVolume = nil, UseBoomerangMath = false, SizeBoomerang = 0, Boomerang = 35})	
-		end
-		CHILD:remove()
-		end
-		end))
-	end
-	Debris:AddItem(MODEL,6)
+
 end
 
 function ManSlaughter(MAN)
