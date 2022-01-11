@@ -1,13 +1,4 @@
-getgenv().Settings = {
-	Reanimation = "Simple",
-	CloneName = "Reanimate",
-    CloneParent = game.Players.LocalPlayer.Character, -- Recommended: game.Players.LocalPlayer.Character
-    AttachHead = false, -- Recommended: False
-    Velocity = Vector3.new(35,0,0),
-    AllowNetBypass = true, -- Recommended: True
-    DisableAnimationsR6 = false, -- Recommended: IDK
-    SimpleBulletFling = false -- Recommended: IDK
-}
+
 
 if not getgenv().Settings.AllowNetBypass then getgenv().Settings.AllowNetBypass = true end
 spawn(function()
