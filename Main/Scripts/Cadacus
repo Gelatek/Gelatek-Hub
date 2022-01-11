@@ -6,7 +6,7 @@ getgenv().Settings = {
     CloneParent = game.Players.LocalPlayer.Character, -- Recommended: game.Players.LocalPlayer.Character
     AttachHead = false, -- Recommended: False
     Velocity = Vector3.new(35,0,0),
-    AllowNetBypass = true, -- Recommended: True
+    AllowNetBypass = false, -- Recommended: True
     DisableAnimationsR6 = true, -- Recommended: IDK
     SimpleBulletFling = true -- Recommended: IDK
 }
